@@ -1,0 +1,333 @@
+* {
+    transition: all .5s;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-zoom: none
+}
+
+body {
+    background: url(https://cdn.discordapp.com/attachments/774969628891283466/1071468324992602122/wallpaperflare.com_wallpaper_25.jpg)no-repeat center center fixed;
+    background-size: cover
+}
+
+.card {
+    height: 400px;
+    width: 320px;
+    background-color: rgba(255,255,255,.06);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 8px;
+    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,.2);
+    box-shadow: 20px 20px 22px rgba(0,0,0,.2);
+    font-family: "Poppins",sans-serif;
+    text-align: center
+}
+
+.card,.card-img,.desc {
+    position: absolute
+}
+
+.card-img {
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255,255,255,.06);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    margin: 30px auto 20px;
+    left: 0;
+    right: 0
+}
+
+.card-img img {
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px
+}
+
+.card-img img:hover {
+    transform: scale(1.25);
+    -webkit-box-shadow: 0 0 50px 0#fff;
+    -moz-box-shadow: 0 0 50px 0#fff;
+    box-shadow: 0 0 50px 0#fff
+}
+
+*,h6 {
+    margin: 0
+}
+
+.desc {
+    width: 100%;
+    text-align: center;
+    top: 150px
+}
+
+.primary-text {
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .7px;
+    margin: 5px 0;
+    padding-top: 3px
+}
+
+.secondary-text {
+    color: silver;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 5px 0
+}
+
+a,button {
+    border-radius: 5px
+}
+
+.details,button {
+    background-color: rgba(255,255,255,.06);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    position: relative
+}
+
+button {
+    border: 0;
+    width: 80%;
+    padding: 15px 0;
+    left: 10%;
+    top: 240px;
+    outline: 0
+}
+
+.details {
+    display: inline-grid;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    bottom: 0;
+    border-radius: 0 0 8px 8px;
+    justify-items: center;
+    overflow: hidden
+}
+
+.details>div,.details>i {
+    text-align: center
+}
+
+.menumode {
+    height: 134px
+}
+
+.fa-chevron-up {
+    margin-top: 94.5%;
+    background-color: rgba(255,255,255,.06)
+}
+
+.fa-chevron-down {
+    margin-top: 74.7%;
+    background: rgba(255,255,255,.1)
+}
+
+.fa-chevron-up:hover {
+    cursor: pointer;
+    background: rgba(255,255,255,.1)
+}
+
+.fa-chevron-down:hover {
+    cursor: pointer;
+    background: rgba(255,255,255,.16)
+}
+
+.fa-solid {
+    color: #fff;
+    padding: 1.75% 7%;
+    width: auto;
+    height: auto;
+    border-radius: 8px 8px 0 0
+}
+
+.close {
+    height: 0;
+    opacity: 0
+}
+
+.open {
+    height: 55px;
+    opacity: 1
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+.Discord,.GitHub,.Instagram,.LinkedIn {
+    position: relative;
+    border-radius: 5px;
+    margin: 5% 2.5% 2.5% 5%;
+    width: 148px;
+    float: left
+}
+
+.Discord:hover,.GitHub:hover,.Instagram:hover,.LinkedIn:hover {
+    background: rgba(255,255,255,.1)
+}
+
+.Discord,.GitHub,.Instagram {
+    margin: 5% 5% 2.5% 2.5%;
+    float: right
+}
+
+.Discord,.Instagram {
+    margin: 2.5% 2.5% 5% 5%;
+    float: left
+}
+
+.Instagram {
+    margin: 2.5% 5% 5% 2.5%;
+    float: right
+}
+
+@media only screen and (max-width:1080px) {
+    .card {
+        height: 800px;
+        width: 640px;
+        background-color: rgba(255,255,255,.06);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 16px;
+        -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,.2);
+        box-shadow: 20px 20px 22px rgba(0,0,0,.2);
+        font-family: "Poppins",sans-serif;
+        text-align: center
+    }
+
+    .card,.card-img,.desc {
+        position: absolute
+    }
+
+    .card-img {
+        height: 250px;
+        width: 250px;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        border-radius: 50%;
+        margin: 50px auto 25px;
+        left: 0;
+        right: 0
+    }
+
+    .card-img img {
+        height: 210px;
+        border-radius: 50%;
+        margin-top: 20px
+    }
+
+    .desc {
+        width: 100%;
+        text-align: center;
+        top: 310px
+    }
+
+    .primary-text {
+        color: #d5d5d5;
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: .7px;
+        margin: 5px 0;
+        padding-top: 10px
+    }
+
+    .secondary-text {
+        color: silver;
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: 1px;
+        margin: 0
+    }
+
+    .details {
+        display: inline-grid;
+        width: 100%;
+        height: 140px;
+        padding: 0;
+        -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+        background-color: rgba(255,255,255,.06);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        position: relative;
+        bottom: 0;
+        border-radius: 0 0 16px 16px;
+        justify-items: center
+    }
+
+    .menumode {
+        height: 268px
+    }
+
+    .Discord,.GitHub,.Instagram,.LinkedIn {
+        position: relative;
+        border-radius: 10px;
+        width: 296px;
+        height: 110px;
+        float: left
+    }
+
+    .GitHub:hover,.LinkedIn:hover {
+        background: rgba(255,255,255,.1)
+    }
+
+    .Discord,.GitHub,.Instagram {
+        float: right
+    }
+
+    .Discord,.Instagram {
+        float: left
+    }
+
+    .Instagram {
+        float: right
+    }
+
+    .fa-chevron-up {
+        margin-top: 94.6%;
+        background-color: rgba(255,255,255,.06)
+    }
+
+    .fa-chevron-down {
+        margin-top: 74.6%;
+        background: rgba(255,255,255,.1)
+    }
+
+    .fa-solid {
+        font-size: 32px;
+        color: #fff;
+        padding: 1.75% 7%;
+        width: auto;
+        height: auto;
+        border-radius: 16px 16px 0 0
+    }
+}
